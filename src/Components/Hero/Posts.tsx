@@ -20,6 +20,9 @@ const Posts: React.FC<PostsProps> = ({
       <div className="posts-container d-lg-flex bg-white p-2 rounded-4 mb-4">
         <div className="posts-left-container col-lg-4">
           <div className="posts-img-container ">
+            <div className="img-style position-absolute  rounded-start-0 rounded-end-pill  py-1  ps-1 pe-4 mt-4 text-white ">
+              Inspiration
+            </div>
             <img
               className=" post-img img-fluid rounded-4 mb-sm-4 mb-lg-0  "
               src={postImg}
