@@ -1,0 +1,116 @@
+.fa-landing,
+.special-title,.fa-envelope {
+  color: #ff6481;
+}
+
+.fa-whatsapp{
+  color: green;
+}
+
+.rect-style {
+  height: 30px;
+  width: 1.9px;
+  background: #ff6481;
+  border-radius: 5px;
+}
+
+@media (min-width: 308px) {
+  .landing-page-img {
+    height: 400px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 1400px) {
+  .landing-page-img {
+    height: 500px;
+    width: 100%;
+  }
+}
+
+@media (min-width: 160px) and (max-width: 320px) {
+  .landing-page-img {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+.landing-page-list > li {
+  list-style-type: number;
+  font-weight: 400;
+  font-size: medium;
+}
+
+@media (min-width: 320px) {
+  .img-3 {
+    height: 200px;
+    width: 250px;
+  }
+}
+@media (min-width: 375px) {
+  .img-3 {
+    height: 250px;
+    width: 300px;
+  }
+}
+@media (min-width: 425px) {
+  .img-3 {
+    height: 280px;
+    width: 340px;
+  }
+}
+@media (min-width: 768px) {
+  .img-3 {
+    height: 400px;
+    width: 600px;
+  }
+}
+@media (min-width: 1024px) {
+  .img-3 {
+    height: 400px;
+    width: 570px;
+  }
+}
+
+.seperator {
+  width: 100%;
+  background: #feeff0;
+  height: 2px;
+  align-self: center;
+  margin: 0 auto;
+}
+
+.landing-search{
+  border: none;
+  outline: none;
+}
+
+.landing-search:hover{
+  border: #ff6481;
+}
+
+.prev-page-container {
+  background: #4ec1d8;
+  
+}
+
+.btn-article{
+  background: #8664f0;
+  border:none;
+}
+
+.text-area{
+  border:none;
+  outline:none;
+}
+
+.width{
+  width:98%
+}
+
+.fa-instagram{
+  color:#ef00a0;
+}
+.fa-tiktok{
+  color:#a2d9de;
+}

@@ -1,0 +1,36 @@
+.btn {
+  background: #ff6481;
+  color: white;
+  border: none;
+}
+
+btn:hover {
+  background: #ff6481;
+  color: #ffffff;
+}
+
+.navbar {
+  background: white;
+}
+
+.search-text-area {
+  border: none;
+  outline: none;
+}
+
+.search-text-area:hover {
+  border: none;
+  outline: none;
+}
+.fa-magnifying-glass{
+    color: #ff6481;
+}
+
+
+
+@media(max-width:320px)
+{
+  .btn{
+    font-size: small  ;
+  }
+}

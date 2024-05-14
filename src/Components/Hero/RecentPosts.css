@@ -1,0 +1,29 @@
+.date {
+  color: #72819d;
+}
+
+@media (min-width: 768px) {
+  .recent-post-img {
+    width: 100px;
+    height: 400px;
+  }
+}
+@media (max-width: 992px) {
+  .recent-post-img {
+    width: 100%;
+    height: 400px;
+  }
+}
+@media (min-width: 992px) {
+  .recent-post-img {
+    width: 100px;
+    height: 100px;
+  }
+}
+
+@media (max-width: 576px) and (max-width: 768px) {
+  .recent-post-img {
+    width: 100%;
+    height: 300px;
+  }
+}

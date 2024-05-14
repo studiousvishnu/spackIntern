@@ -1,0 +1,49 @@
+.name,
+.fa-bolt,
+.fa-globe,
+.fa-calendar-days,
+.fa-clocks,
+.fa-user,
+.fa-stopwatch,
+.fa-medals,
+.fa-tag {
+  color: #ff6481;
+}
+
+.fa-facebook {
+  color: blue;
+}
+
+.fa-star {
+  color: #ffc124;
+}
+.hero-ul > li::before,
+.posts-ul > li::before {
+  content: "•";
+  margin-right: 5px;
+  color: red;
+  font-size: 1.5rem;
+}
+
+li {
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+@media (min-width: 320px) {
+  .final-post-img {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (min-width: 768px) {
+  .final-post-img {
+    width: 100%;
+    height: 500px;
+  }
+}
+
+.linking {
+  text-decoration: none;
+  color: black;
+}
